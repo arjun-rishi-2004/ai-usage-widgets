@@ -1,0 +1,21 @@
+# Local build products
+.build/
+dist/
+DerivedData/
+*.app/
+*.dSYM/
+
+# macOS and local runtime data
+.DS_Store
+Library/
+*.plist
+status.json
+pace-history.json
+*.snapshot.json
+
+# Local plan workspace
+.superpowers/
+
+# Project-local worktrees
+.worktrees/
+worktrees/
