@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Usage Widgets for macOS — ChatGPT, Codex & Claude Usage Tracker</title>
+  <meta name="description" content="Free, open-source macOS menu-bar trackers for ChatGPT, Codex, and Claude Code usage. See usage percentages, reset times, remaining allowance, and pacing guidance.">
+  <meta name="keywords" content="ChatGPT usage tracker Mac, Codex usage tracker macOS, Claude usage tracker Mac, Claude Code usage, menu bar app">
+  <meta property="og:title" content="AI Usage Widgets for macOS">
+  <meta property="og:description" content="Open-source menu-bar trackers for ChatGPT, Codex, and Claude Code usage.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arjun-rishi-2004.github.io/ai-usage-widgets/">
+  <link rel="canonical" href="https://arjun-rishi-2004.github.io/ai-usage-widgets/">
+  <style>
+    :root { color-scheme: dark; --ink:#edf5f2; --muted:#9cafaa; --accent:#22d3c5; --panel:#14201e; }
+    * { box-sizing:border-box } body { margin:0; color:var(--ink); background:radial-gradient(circle at 20% 0,#183d39,transparent 35rem),#091211; font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { max-width:960px; margin:auto; padding:80px 24px; } .tag { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:.78rem; }
+    h1 { font-size:clamp(2.6rem,7vw,5rem); line-height:1; max-width:760px; margin:.35rem 0 1.25rem; } .lead { color:var(--muted); font-size:1.25rem; max-width:690px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin:32px 0 64px; } a { color:inherit } .button { text-decoration:none; background:var(--accent); color:#06221e; padding:12px 18px; border-radius:10px; font-weight:750; } .button.secondary { background:transparent; border:1px solid #42615b; color:var(--ink); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; } article { background:color-mix(in srgb,var(--panel) 88%,transparent); border:1px solid #25413b; border-radius:16px; padding:22px; } h2 { margin-top:0; font-size:1.2rem; } code { display:block; padding:12px; border-radius:8px; background:#06100e; color:#b9fff7; font-size:.9rem; overflow:auto; } footer { color:var(--muted); margin-top:56px; font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="tag">Open source · macOS 13+</p>
+    <h1>Know your AI allowance before you hit the limit.</h1>
+    <p class="lead">AI Usage Widgets puts ChatGPT, Codex, and Claude Code usage percentages, reset times, and local pacing guidance in your Mac menu bar.</p>
+    <div class="actions"><a class="button" href="https://github.com/arjun-rishi-2004/ai-usage-widgets">View on GitHub</a><a class="button secondary" href="https://github.com/arjun-rishi-2004/ai-usage-widgets#install">Install from source</a></div>
+    <section class="grid">
+      <article><h2>ChatGPT & Codex</h2><p>Track the current Codex window and weekly allowance through the installed ChatGPT app.</p><code>Scripts/install.sh chatgpt</code></article>
+      <article><h2>Claude Code</h2><p>Track Claude subscription usage locally. This integration is experimental because the usage endpoint is undocumented.</p><code>Scripts/install.sh claude</code></article>
+      <article><h2>Use both intelligently</h2><p>Run both trackers to see fresh, local pacing advice that preserves a session and weekly reserve.</p><code>Scripts/install.sh both</code></article>
+    </section>
+    <footer>Private by design: no prompts, conversations, analytics, or cloud telemetry.</footer>
+  </main>
+</body>
+</html>
