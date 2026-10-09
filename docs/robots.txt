@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://arjun-rishi-2004.github.io/ai-usage-widgets/sitemap.xml

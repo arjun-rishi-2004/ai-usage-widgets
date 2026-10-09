@@ -4,6 +4,8 @@ Native macOS menu-bar usage trackers for ChatGPT, Codex, and Claude Code.
 See your current usage percentage, reset time, remaining allowance, and pacing
 recommendation directly from your Mac menu bar.
 
+Website: https://arjun-rishi-2004.github.io/ai-usage-widgets/
+
 AI Usage Widgets includes two independent native apps: **ChatGPT Usage** for
 ChatGPT/Codex rate limits and **Claude Usage** for Claude Code subscription
 limits. Install either tracker on its own, or run both to receive local
