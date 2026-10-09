@@ -1,0 +1,11 @@
+name: build
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - run: swiftc Shared/UsageModels.swift Shared/Pacing.swift Tests/PacingTests.swift -o .build/pacing-tests && .build/pacing-tests
+      - run: bash Tests/InstallerContractTests.sh
+      - run: bash Tests/DocumentationContractTests.sh
+      - run: Scripts/build.sh both

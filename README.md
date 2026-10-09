@@ -11,8 +11,7 @@ Claude only: `Scripts/install.sh claude`
 Both trackers: `Scripts/install.sh both`
 
 Claude Usage is **Experimental** because it depends on an undocumented Claude
-usage endpoint. The trackers keep local percentage/reset snapshots only. **No
-prompts or conversations** are read or stored.
+usage endpoint. The trackers keep local percentage/reset snapshots only. No prompts or conversations are read or stored.
 
 Each app shows the current-session percentage, refreshes regularly, and saves
 non-sensitive snapshots so pacing guidance can recommend the other service only
