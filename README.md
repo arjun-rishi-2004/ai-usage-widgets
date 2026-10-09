@@ -6,6 +6,8 @@ recommendation directly from your Mac menu bar.
 
 Website: https://arjun-rishi-2004.github.io/ai-usage-widgets/
 
+![Animated preview of the macOS menu-bar indicator and AI Usage desktop card](docs/assets/usage-demo.gif)
+
 AI Usage Widgets includes two independent native apps: **ChatGPT Usage** for
 ChatGPT/Codex rate limits and **Claude Usage** for Claude Code subscription
 limits. Install either tracker on its own, or run both to receive local
